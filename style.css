@@ -1,54 +1,6 @@
-.half-width {
-    width: 50%;
-    padding: 0 5%;
-}
-.flexible-container {
-    display: flex;
-}
-.right-content img {
-    width: 100%;
-}
-h1 {
-    border-left: 5px solid;
-    }
-h1 span {
-    color: orange;
-}
-p span {
-    font-size: 10px;
-}
-a {
-    text-decoration: none;
-    color: white;
-    background-color: red;
-    font-size: 15px;
-    padding: 5px 25px;
-    border-radius: 5px;
-}
-h2 {
-    text-align: center;
-}
-h2 span {
-    color: orange;
-}
-#Boss img {
-    width: 100%;
-    background-color: red;
-    border-radius: 20px;
-    gap: 20px;
-}
-#senior img {
-    width: 100%;
-    background-color: blue;
-    border-radius: 20px;
-    row-gap: 20px;
-}
-#junior img {
-    width: 100%;
-    background-color: green;
-    border-radius: 20px;
-}
-.new-section {
-    padding: 20px 20px;
-    gap: 20px;
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Yeseva+One&display=swap');
+body {
+    /* font-family: "Poppins", serif; */
+    font-family: "Yeseva One", serif;
 }
