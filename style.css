@@ -4,3 +4,57 @@ body {
     /* font-family: "Poppins", serif; */
     font-family: "Yeseva One", serif;
 }
+.half-width {
+    width: 50%;
+}
+.container {
+    width: ;
+}
+.flexible-container {
+display: flex;
+margin:0 50px
+}
+.colorful {
+    color: #ffad5a;
+}
+/* Header Section Css */
+header img {
+    width: 60%;
+    justify-content: center;
+}
+.content-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.content-area h1 {
+    font-family: 'Yeseva one';
+    font-size: 60px;
+    font-weight: 400;
+    border-left: 4px solid #ff5959;
+    padding-left: 15px;
+}
+.content-area p {
+    font-family: 'poppins';
+    font-size: 18px;
+}
+.avater {
+    width: 0 auto;
+    text-align: center;
+}
+.pin a {
+    background-color: #ff5959;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+/* Mission section */
+
+.Mission h1 {
+    font-size: 48px;
+    font-family: 'Poppins';
+}
