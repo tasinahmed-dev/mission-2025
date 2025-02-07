@@ -7,9 +7,6 @@ body {
 .half-width {
     width: 50%;
 }
-.container {
-    width: ;
-}
 .flexible-container {
 display: flex;
 margin:0 50px
@@ -57,4 +54,8 @@ header img {
 .Mission h1 {
     font-size: 48px;
     font-family: 'Poppins';
+}
+.Mission .items {
+    display: flex;
+    width:auto;
 }
