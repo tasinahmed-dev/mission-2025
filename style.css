@@ -11,6 +11,9 @@ body {
 display: flex;
 margin:0 50px
 }
+.container {
+    width: 80%;
+}
 .colorful {
     color: #ffad5a;
 }
@@ -54,8 +57,28 @@ header img {
 .Mission h1 {
     font-size: 48px;
     font-family: 'Poppins';
+    text-align: center;
 }
 .Mission .items {
     display: flex;
-    width:auto;
+    gap: 20px;
+}
+.items .item img {
+    width: 150px; ;
+}
+.items .item {
+    border-radius: 10px;
+    padding: 20px;
+}
+.items .item {
+    padding-left: 45px;
+}
+#pic-1 {
+    background-color: #1fa2b195;
+}
+#pic-2 {
+    background-color: #ff8b597d;
+}
+#pic-3 {
+    background-color: #FFF4D6;
 }
