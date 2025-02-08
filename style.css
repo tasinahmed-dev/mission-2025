@@ -1,21 +1,25 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Yeseva+One&display=swap');
 body {
-    /* font-family: "Poppins", serif; */
-    font-family: "Yeseva One", serif;
+    font-family: "Poppins", serif;
+    /* font-family: "Yeseva One", serif; */
 }
 .half-width {
     width: 50%;
 }
 .flexible-container {
 display: flex;
-margin:0 50px
+margin:0 50px;
+/* padding: 20px; */
 }
 .container {
-    width: 80%;
+    padding: 0 auto;
 }
 .colorful {
     color: #ffad5a;
+}
+.gap {
+    gap: 60px;
 }
 /* Header Section Css */
 header img {
@@ -61,17 +65,14 @@ header img {
 }
 .Mission .items {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 .items .item img {
-    width: 150px; ;
+    width: 120px;
 }
 .items .item {
     border-radius: 10px;
-    padding: 20px;
-}
-.items .item {
-    padding-left: 45px;
+    padding: 30px;
 }
 #pic-1 {
     background-color: #1fa2b195;
@@ -81,4 +82,36 @@ header img {
 }
 #pic-3 {
     background-color: #FFF4D6;
+}
+.Mission  {
+    padding: 50px;
+}
+/* Develop Without Limits */
+
+.developer img {
+    width: 400px;
+}
+.developer h1 {
+    font-size: 35px;
+}
+.developer a {
+    background-color: #ff5959;
+    text-decoration: none;
+    padding: 20px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+}
+.developer .box-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.developer {
+    background-image: url(images/shapes/shape-1.png), url(images/illustrators/Group\ 57403.svg);
+    background-repeat: no-repeat;
+    /* height: 227px; */
+    background-size: 15%;
+    background-position: center left, left bottom;
+
 }
