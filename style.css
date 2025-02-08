@@ -88,13 +88,13 @@ header img {
 }
 /* Develop Without Limits */
 
-.developer img {
+.developer img, .Community img {
     width: 400px;
 }
-.developer h1 {
+.developer h1, .Community h1 {
     font-size: 35px;
 }
-.developer a {
+.developer a, .Community a {
     background-color: #ff5959;
     text-decoration: none;
     padding: 20px 30px;
@@ -102,7 +102,7 @@ header img {
     border-radius: 10px;
     color: white;
 }
-.developer .box-right {
+.developer .box-right, .Community .box-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,5 +113,46 @@ header img {
     /* height: 227px; */
     background-size: 15%;
     background-position: center left, left bottom;
+}
 
+/* Community */
+.reverse {
+    flex-direction: row-reverse;
+}
+.Community {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    /* height: 227px; */
+    background-size: 15%;
+    background-position:right bottom;
+}
+/* Build */
+.choco h1 {
+    text-align: center;
+    font-size: 48px;
+}
+.box a {
+    background-color: #ff5959;
+    text-decoration: none;
+    padding: 20px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+}
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;600&family=Yeseva+One&display=swap');
+/* Footer */
+footer {
+    background-color: black;
+}
+.last h1 {
+    color: white;
+    text-align: center;
+    font-family: lob;
+}
+.last h4 {
+    color: white;
+    text-align: center;
+    font-size: 8px;
+    font-family: 'Lobster';
 }
